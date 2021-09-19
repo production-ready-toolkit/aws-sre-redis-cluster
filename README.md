@@ -69,12 +69,3 @@ module "compliance_redis" {
 ```
 
 # Examples
-
-# Todo 
-
-* Prefix List support 
-* Auth user Support
-* Logs Support
-* Cloudwatch Metrics 
-* Cloudwatch Alarms 
-* SNS Topic for Alarms
