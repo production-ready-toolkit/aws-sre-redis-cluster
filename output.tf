@@ -10,3 +10,7 @@ output "cluster" {
     sensitive = true
     value = aws_elasticache_replication_group.main
 }
+
+output "kms" {
+    value = aws_kms_key.main
+}
