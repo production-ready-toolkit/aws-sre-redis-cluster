@@ -1,0 +1,6 @@
+providers.tf
+test.tfvars
+terraform.tf*
+.terraform
+.terraform*
+test.tf
