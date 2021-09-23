@@ -6,6 +6,4 @@ resource "aws_elasticache_parameter_group" "main" {
         name  = "cluster-enabled"
         value = var.cluster_mode ? "yes" : "no"
     }
-
-    tags      = var.tags
 }
