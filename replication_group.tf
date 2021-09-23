@@ -17,7 +17,7 @@ resource "aws_elasticache_replication_group" "main" {
     multi_az_enabled                = var.multi_az
 
     at_rest_encryption_enabled      = true
-    kms_key_id                      = var.kms_key != "" ? var.kms_key : aws_kms_key.main.arn
+    kms_key_id                      = var.kms_key != "" ? var.kms_key : aws_kms_key.main[0].arn
 
     auth_token                      = var.auth_token
 

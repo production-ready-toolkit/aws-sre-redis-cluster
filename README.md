@@ -46,7 +46,7 @@
 
 ```hcl
 module "compliance_redis" {
-    source = "github.com/msfidelis/aws-sre-redis-cluster"
+    source = "github.com/production-ready-toolkit/aws-sre-redis-cluster"
 
     name        = "app-x-redis"
     node_type   = "cache.t2.micro"
@@ -69,12 +69,3 @@ module "compliance_redis" {
 ```
 
 # Examples
-
-# Todo 
-
-* Prefix List support 
-* Auth user Support
-* Logs Support
-* Cloudwatch Metrics 
-* Cloudwatch Alarms 
-* SNS Topic for Alarms
